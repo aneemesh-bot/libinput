@@ -133,7 +133,7 @@ tp_tap_notify(struct tp_dispatch *tp,
 
 	assert(tp->tap.map < ARRAY_LENGTH(button_map));
 
-	if (nfingers < 1 || nfingers > 3)
+	if (nfingers < 1 || nfingers > 2)
 		return;
 
 	button = button_map[tp->tap.map][nfingers - 1];
