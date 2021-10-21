@@ -11,6 +11,8 @@ provide the common set of functionality that users expect. Input event
 processing includes scaling touch coordinates, generating
 relative pointer events from touchpads, pointer acceleration, etc.
 
+My version of libinput disables 3-finger tap and enhances palm rejection, since most Synaptics touchpads have trouble correctly managing 3-finger taps when performing gestures and end up pasting text all over my KDE desktop :(
+
 User documentation
 ------------------
 
